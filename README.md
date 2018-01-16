@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 
 
 
-### You can find all steps to find the solution [here](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/project.html) which includes shapes and comments.
+### You can find all steps to find the solution [here](https://github.com/mhBahrami/CarND-Vehicle-Detection/blob/master/project.html) which includes shapes and comments.
 
 
 
