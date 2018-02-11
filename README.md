@@ -12,9 +12,9 @@
 The main goal of the project is to create a software pipeline to identify vehicles in a video from a front-facing camera on a car.
 
 Code:
-- All commented code can be found at `project-crowdai.ipynb` jupyter notebook.
-- test_images/ contains images of road to test and fine-tune pipeline
-- dataset/ - folder for datasets unpacking
+- All commented code can be found at [`project-crowdai.ipynb`](https://github.com/mhBahrami/CarND-Vehicle-Detection/blob/master/project-crowdai.ipynb) jupyter notebook.
+- `test_images/` contains images of road to test and fine-tune pipeline
+- `output` includes the final generated video.
 
 ### Overview
 
@@ -22,7 +22,7 @@ Project code consist of following steps:
 
 1. Load datasets
 2. Extract features from datasets images
-3. Train classifier to detect cars. (I use simple default `LinearSVM()` with `rbf` kernel)
+3. Train classifier to detect cars. (I used simple default `LinearSVM()`)
 4. Scan video frame with sliding windows and detect hot boxes
 5. Use hot boxes to estimate cars positions and sizes
 6. Use hot boxes from previous steps to remove false positives hot boxes and make detection more robust
@@ -94,7 +94,7 @@ Also in some frames, there are some **false positives** as well.
 
 Same average boxes algorithm may be used to estimate cars base on last several frames of the video. We just need to accumulate hot boxes over number of last frames and then apply same algorithm here with higher threshold. 
 
-Here's a [link to the video result](/output) and you can watch it online [here]().
+Here's a [link to the video result](https://github.com/mhBahrami/CarND-Vehicle-Detection/blob/master/output/project_video_YCrCb.mp4) and you can watch it online [here](https://youtu.be/14IS37hfXpo).
 
 ### Conclusion
 
