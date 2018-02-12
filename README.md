@@ -11,8 +11,6 @@
 [image8]: ./res/sample_heatmap_th.png
 [image9]: ./res/sample_heatmap_th_label.png
 [image10]: ./res/sample_refine.png
-[image12]: ./res/sample_final_result.png
-
 ## The Goal of this Project
 
 In this project, your goal is to write a software pipeline to identify vehicles in a video from a front-facing camera on a car. The test images and project video are available in [the project repository](https://github.com/udacity/CarND-Vehicle-Detection).
