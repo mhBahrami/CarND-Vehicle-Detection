@@ -65,9 +65,9 @@ After playing with picture pixels, histogram and HOG features I decided to use o
 
 ##### Examples of my HOG features
 
-|                          Car Sample                          |                        Non-Car Sample                        |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![img](file://D:\Mohammad\Education\Udacity\carnd\CarND-Vehicle-Detection\res\sample_hog_car.png?lastModify=1518416242) | ![img](file://D:\Mohammad\Education\Udacity\carnd\CarND-Vehicle-Detection\res\sample_hog_noncar.png?lastModify=1518416242) |
+|   Car Sample   | Non-Car Sample |
+| :------------: | :------------: |
+| ![img][image3] | ![img][image4] |
 
 #### Color Space
 
